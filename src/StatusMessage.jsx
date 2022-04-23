@@ -26,7 +26,8 @@ function StatusMessage({ winner, current }) {
       {!winner && noMovesLeft && (
         <>
           <span className="text-green">X </span> and{' '}
-          <span className="text-orange">O</span>Tied
+          <span className="text-orange">O</span>
+          <strong>Tied</strong>
         </>
       )}
     </div>

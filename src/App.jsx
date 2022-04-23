@@ -50,7 +50,8 @@ const App = () => {
   return (
     <div className="app">
       <h1>
-        Tic<span className="text-green"></span> Tac Toe
+        <span className="text-green">Tic</span>Tac
+        <span className="text-orange">Toe</span>
       </h1>
       <StatusMessage winner={winner} current={current} />
 
