@@ -15,7 +15,7 @@ export function calculateWinner(squares) {
       // return squares[a];
       return {
         winner: squares[a],
-        winningSquares: [(a, b, c)],
+        winningSquares: [a, b, c],
       };
     }
   }
